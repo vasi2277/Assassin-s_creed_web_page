@@ -1,0 +1,365 @@
+
+
+
+.bg {
+
+    background-image: url(images/assassins_creed.jpg);
+    margin-top: 250px;
+    padding-top: 50px;
+    background-size: cover;
+    min-height: 10vh;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    isolation: isolate;
+
+
+}
+
+.bg::after {
+
+    content: '';
+    position: absolute;
+    background: black;
+    z-index: -1;
+    inset: 0;
+    opacity: .7;
+
+}
+
+#btn {
+
+    color: grey;
+
+
+}
+
+
+
+.btn:hover {
+
+    box-shadow: 0 0 5px grey,
+        0 0 25px grey, 0 0 50px grey,
+        0 0 100px grey, 0 0 200px grey;
+
+
+
+
+}
+
+#btn:hover {
+
+
+    background-color: rgb(188, 62, 62);
+
+    border-radius: 7px;
+    color: black;
+
+    box-shadow: 0 0 5px black,
+        0 0 25px red, 0 0 50px red,
+        0 0 100px red, 0 0 200px red;
+
+
+}
+
+
+
+
+
+
+.c-img {
+
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.c-item {
+
+    height: 650px;
+
+}
+
+
+
+.para {
+
+
+    background-color: rgba(60, 60, 60, 0.6);
+    border: solid grey;
+    backdrop-filter: blur(1px);
+    text-align: justify;
+    padding: 10px;
+
+    border-radius: 50px;
+    color: black;
+
+    box-shadow: 0 0 5px black,
+        0 0 25px black, 0 0 50px black,
+        0 0 100px black, 0 0 200px black;
+
+
+
+}
+
+.para2 {
+
+
+    background-color: rgba(60, 60, 60, 0.6);
+    border: solid grey;
+    backdrop-filter: blur(1px);
+    text-align: justify;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 40px;
+
+    border-radius: 50px;
+    color: black;
+
+    box-shadow: 0 0 5px black,
+        0 0 25px black, 0 0 50px black,
+        0 0 100px black, 0 0 200px black;
+
+}
+
+.para3 {
+
+
+    background-color: rgba(60, 60, 60, 0.6);
+    border: solid grey;
+    backdrop-filter: blur(1px);
+    text-align: justify;
+    padding: 10px;
+
+    margin-right: 50px;
+    margin-right: 40px;
+
+
+    color: black;
+
+    box-shadow: 0 0 5px black,
+        0 0 25px black, 0 0 50px black,
+        0 0 100px black, 0 0 200px black;
+
+
+
+}
+
+.bck {
+
+    background-image: url(images/smok.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.hdng {
+
+    background-color: rgba(2, 2, 2, 0.9);
+    color: green;
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px;
+    font-size: 30px;
+    border: solid rgb(65, 46, 46);
+    border-radius: 10px;
+
+    box-shadow: 0 0 5px black,
+        0 0 100px black, 0 0 100px black,
+        0 0 100px black, 0 0 200px black;
+
+
+}
+
+.hdng:hover {
+
+    box-shadow: 0 0 5px grey,
+        0 0 25px grey, 0 0 50px grey,
+        0 0 100px grey, 0 0 200px grey;
+
+
+}
+
+
+
+
+.gif1 {
+
+    padding-left: 10px;
+    border-left: solid rgb(172, 45, 45) 10px;
+    border-top: solid rgb(172, 45, 45) 10px;
+    border-bottom: solid rgb(172, 45, 45) 10px;
+
+
+}
+
+.gif1:hover {
+
+    box-shadow: 0 0 5px black,
+        0 0 25px red, 0 0 50px red,
+        0 0 100px red, 0 0 200px red;
+
+}
+
+.gif2 {
+
+    border-right: solid rgb(134, 128, 128) 10px;
+    border-top: solid rgb(122, 108, 108) 10px;
+    border-bottom: solid rgb(128, 103, 103) 10px;
+
+
+    padding-right: 10px;
+    margin-left: 90px;
+
+}
+
+.gif2:hover {
+
+    box-shadow: 0 0 5px grey,
+        0 0 25px grey, 0 0 50px grey,
+        0 0 100px grey, 0 0 200px grey;
+
+}
+
+
+.card:hover{
+
+    transform: translateY(-50px);    
+
+}
+
+
+.ftr {
+
+    background-color: black;
+
+}
+
+
+.link {
+
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.link:hover {
+
+    color: blue;
+
+}
+
+li {
+
+    list-style-type: none;
+
+}
+
+
+.top{
+    
+    width: 70px;
+    height: 50px;
+    /* position: fixed;
+    border: solid grey; */
+
+}
+
+.top:hover{
+
+    background-color: darkgray;
+    box-shadow: 0 0 5px grey,
+        0 0 25px grey, 0 0 50px grey,
+        0 0 100px grey, 0 0 200px grey;
+    
+}
+
+
+@media screen and (max-width:1140px) {
+
+    .gif1 {
+
+
+        width: 300px;
+        border-left: solid rgb(172, 45, 45) 10px;
+        border-top: solid rgb(172, 45, 45) 10px;
+        border-bottom: solid rgb(172, 45, 45) 10px;
+
+
+    }
+}
+
+
+@media screen and (max-width:1135px) {
+
+   
+
+    .gif2 {
+
+        width: 250px;
+
+    }
+}
+
+@media screen and (max-width:999px) {
+
+    .res {
+
+        margin-top: 250px;
+
+    }
+
+    .gif1 {
+
+
+        width: 300px;
+        margin-top: 70px;
+
+
+    }
+
+    .gif2 {
+
+        width: 300px;
+        margin-bottom: 70px;
+        margin-right: 50px;
+
+    }
+
+    .para2 {
+
+
+        margin-left: 200px;
+
+    }
+}
+
+
+@media screen and (max-width:991px) {
+
+    .para2 {
+
+        margin-left: 1px;
+
+    }
+
+    .hdng4 {
+
+        display: none;
+
+
+    }
+
+}
+
+@media screen and (max-width:400px) {
+
+    .gif2 {
+
+        width: 200px;
+
+    }
+
+}

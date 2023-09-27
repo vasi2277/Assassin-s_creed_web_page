@@ -1,0 +1,211 @@
+#btn {
+
+    color: grey;
+
+
+}
+
+
+
+.btn:hover {
+
+    box-shadow: 0 0 5px grey,
+        0 0 25px grey, 0 0 50px grey,
+        0 0 100px grey, 0 0 200px grey;
+
+
+
+
+}
+
+#btn:hover {
+
+
+    background-color: rgb(188, 62, 62);
+
+    border-radius: 7px;
+    color: black;
+
+    box-shadow: 0 0 5px black,
+        0 0 25px red, 0 0 50px red,
+        0 0 100px red, 0 0 200px red;
+
+
+}
+
+.c-item{
+
+    height: 650px;
+
+}
+
+.c-img{
+   
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.bgimg{
+
+ background-size: cover;
+ min-height: 10vh;
+
+}
+
+
+.ftr {
+
+    background-color: black;
+
+}
+
+
+.link {
+
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.link:hover {
+
+    color: blue;
+
+}
+
+li {
+
+    list-style-type: none;
+
+}
+
+
+.top{
+    
+    width: 70px;
+    height: 50px;
+    /* position: fixed;
+    border: solid grey; */
+
+}
+
+.top:hover{
+
+    background-color: darkgray;
+    box-shadow: 0 0 5px grey,
+        0 0 25px grey, 0 0 50px grey,
+        0 0 100px grey, 0 0 200px grey;
+    
+}
+
+
+@media screen and (max-width:1000px) {
+
+    #img{
+        
+        width: 700px;
+        margin-bottom: 20px;
+
+    }
+
+    #imgs{
+        
+        width: 100px;
+       
+
+    }
+
+}
+
+@media screen and (max-width:996px) {
+
+    #img{
+        
+        width: 700px;
+        margin-bottom: 20px;
+
+    }
+
+    #imgs{
+        
+        width: 400px;
+        margin-bottom: 20px;
+
+    }
+
+}
+
+@media screen and (max-width:810px) {
+
+    #img{
+        
+        width: 500px;
+        margin-bottom: 20px;
+
+    }
+
+    #imgs{
+        
+        width: 500px;
+        margin-bottom: 20px;
+
+    }
+
+
+}   
+
+@media screen and (max-width:600px) {
+
+    #img{
+        
+        width: 400px;
+        margin-bottom: 20px;
+
+    }
+
+    #imgs{
+        
+        width: 300px;
+        
+
+    }
+
+}   
+
+
+@media screen and (max-width:589px) {
+
+    #img{
+        
+        width: 350px;
+        margin-bottom: 20px;
+
+    }
+
+    
+    #imgs{
+        
+        width: 300px;
+        
+
+    }
+  
+   
+}   
+
+@media screen and (max-width:542px) {
+
+   
+
+    
+    #imgs{
+        
+        width: 300px;
+        
+
+    }
+  
+   
+}   

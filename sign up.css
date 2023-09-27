@@ -1,0 +1,189 @@
+.bg {
+
+    background-image: url(images/assassins_creed.jpg);
+    margin-top: 250px;
+    padding-top: 50px;
+    background-size: cover;
+    min-height: 10vh;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    isolation: isolate;
+
+
+}
+
+.bg::after {
+
+    content: '';
+    position: absolute;
+    background: black;
+    z-index: -1;
+    inset: 0;
+    opacity: .7;
+
+}
+
+
+
+#btn {
+
+    color: grey;
+
+
+}
+
+
+
+.btn:hover {
+
+    box-shadow: 0 0 5px grey,
+        0 0 25px grey, 0 0 50px grey,
+        0 0 100px grey, 0 0 200px grey;
+
+
+
+
+}
+
+#btn:hover {
+
+
+    background-color: rgb(188, 62, 62);
+
+    border-radius: 7px;
+    color: black;
+
+    box-shadow: 0 0 5px black,
+        0 0 25px red, 0 0 50px red,
+        0 0 100px red, 0 0 200px red;
+
+
+}
+
+
+
+
+.gifs {
+
+    width: 800px;
+    height: 400px;
+}
+
+.link {
+
+    text-decoration: none;
+    margin-bottom: 10px;
+
+}
+
+
+
+.ftr {
+
+    background-color: black;
+
+}
+
+
+.link {
+
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.link:hover {
+
+    color: blue;
+
+}
+
+li {
+
+    list-style-type: none;
+
+}
+
+
+.top{
+    
+    width: 70px;
+    height: 50px;
+    /* position: fixed;
+    border: solid grey; */
+
+}
+
+.top:hover{
+
+    background-color: darkgray;
+    box-shadow: 0 0 5px grey,
+        0 0 25px grey, 0 0 50px grey,
+        0 0 100px grey, 0 0 200px grey;
+    
+}
+
+
+@media screen and (max-width:1700px) {
+
+    .gifs {
+
+        width: 700px;
+        height: 400px;
+
+    }
+
+}
+
+@media screen and (max-width:1500px) {
+
+    .gifs {
+
+        width: 580px;
+        height: 400px;
+
+    }
+
+}
+
+@media screen and (max-width:1300px) {
+
+    .gifs {
+
+        width: 500px;
+        height: 400px;
+
+    }
+
+}
+
+@media screen and (max-width:1100px) {
+
+    .gifs {
+
+        width: 450px;
+        height: 400px;
+
+    }
+
+}
+
+@media screen and (max-width:990px) {
+
+    .gifs {
+
+        width: 300px;
+        height: 400px;
+
+    }
+
+    #item {
+
+        width: 300px;
+        height: 400px;
+
+    }
+
+}

@@ -1,0 +1,297 @@
+
+
+
+.bg {
+
+    background-image: url(images/leap.jpg);
+    margin-top: 250px;
+    padding-top: 50px;
+    background-size: cover;
+    min-height: 10vh;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    isolation: isolate;
+
+
+}
+
+.bg::after {
+
+    content: '';
+    position: absolute;
+    background: black;
+    z-index: -1;
+    inset: 0;
+    opacity: .7;
+
+}
+
+.btn {
+
+    color: white;
+
+}
+
+
+.btn:hover {
+
+
+    color: black;
+    box-shadow: 0 0 5px black,
+        0 0 25px black, 0 0 50px black,
+        0 0 100px black, 0 0 200px black;
+
+}
+
+#btn {
+
+    color: black;
+
+
+}
+
+#btn:hover {
+
+
+    background-color: black;
+
+    color: white;
+
+    border-radius: 7px;
+    
+
+    box-shadow: 0 0 5px black,
+    0 0 25px black, 0 0 50px black,
+    0 0 100px black, 0 0 200px black;
+
+
+}
+
+.para {
+
+
+    background-color: rgba(60, 60, 60, 0.6);
+    border: solid grey;
+    backdrop-filter: blur(1px);
+    text-align: justify;
+    padding: 10px;
+
+   
+    color: black;
+
+    box-shadow: 0 0 5px black,
+        0 0 25px black, 0 0 50px black,
+        0 0 100px black, 0 0 200px black;
+
+
+
+}
+
+.para2 {
+
+
+    background-color: rgba(60, 60, 60, 0.6);
+    border: solid grey;
+    backdrop-filter: blur(1px);
+    text-align: justify;
+    padding: 10px;
+    /* margin-left: 100px;
+    margin-right: 40px; */
+
+   
+    color: black;
+
+    box-shadow: 0 0 5px black,
+        0 0 25px black, 0 0 50px black,
+        0 0 100px black, 0 0 200px black;
+
+}
+
+
+
+.ftr {
+
+    background-color: black;
+
+}
+
+
+.link {
+
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.link:hover {
+
+    color: blue;
+
+}
+
+li {
+
+    list-style-type: none;
+
+}
+
+
+.top{
+    
+    width: 70px;
+    height: 50px;
+    /* position: fixed;
+    border: solid grey; */
+
+}
+
+.top:hover{
+
+    background-color: darkgray;
+    box-shadow: 0 0 5px grey,
+        0 0 25px grey, 0 0 50px grey,
+        0 0 100px grey, 0 0 200px grey;
+    
+}
+
+
+@media screen and (max-width:1900px) {
+
+    .gifs{
+          
+        width: 700px;
+        
+    
+    }
+
+    #gifs{
+          
+        width: 700px;
+        
+    
+    }
+        
+    }
+
+@media screen and (max-width:1700px) {
+
+.gifs{
+      
+    width: 700px;
+    
+
+}
+    
+}
+
+@media screen and (max-width:1600px) {
+
+    .gifs{
+          
+        width: 600px;
+        
+    
+    }
+        
+}
+
+@media screen and (max-width:1350px) {
+
+    .gifs{
+          
+        width: 550px;
+       
+    
+    }
+        
+}
+
+@media screen and (max-width:1250px) {
+
+    .gifs{
+          
+        width: 400px;
+     
+    
+    }
+        
+}
+
+@media screen and (max-width:997px) {
+
+    .gifs{
+          
+        width: 400px;
+        height: 400px;
+    
+    }
+
+    #item{
+          
+        width: 600px;
+       font-size: -1em;
+
+    }
+        
+}
+
+@media screen and (max-width:800px) {
+
+    .gifs{
+          
+        width: 300px;
+        height: 400px;
+    
+    }
+
+    #item{
+          
+        width: 300px;
+       font-size: -1em;
+
+    }
+        
+}
+
+
+@media screen and (max-width:650px) {
+
+    .gifs{
+          
+        width: 300px;
+        height: 400px;
+    
+    }
+
+    #item{
+          
+        width: 300px;
+       font-size: -1em;
+
+    }
+
+    .img{
+          
+        width: 400px;
+        height: 300px;
+
+    }
+        
+}
+
+
+@media screen and (max-width:400px) {
+
+    
+    .img{
+          
+        width: 300px;
+        height: 100px;
+
+    }
+        
+
+}
+
